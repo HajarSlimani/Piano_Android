@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/piano">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#FFFBFB"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_c"
+            android:layout_width="55dp"
+            android:layout_height="300dp"
+            android:layout_margin="2dp"
+            android:text="C"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:backgroundTint="#E0070707"
+            app:cornerRadius="10dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_d"
+            android:layout_width="55dp"
+            android:layout_height="300dp"
+            android:layout_margin="2dp"
+            android:text="D"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:backgroundTint="#E0070707"
+            app:cornerRadius="10dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_e"
+            android:layout_width="55dp"
+            android:layout_height="300dp"
+            android:layout_margin="2dp"
+            android:text="E"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:backgroundTint="#E0070707"
+            app:cornerRadius="10dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_f"
+            android:layout_width="55dp"
+            android:layout_height="300dp"
+            android:layout_margin="2dp"
+            android:text="F"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:backgroundTint="#E0070707"
+            app:cornerRadius="10dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_g"
+            android:layout_width="55dp"
+            android:layout_height="300dp"
+            android:layout_margin="2dp"
+            android:text="G"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:backgroundTint="#E0070707"
+            app:cornerRadius="10dp">
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_a"
+            android:layout_width="55dp"
+            android:layout_height="300dp"
+            android:layout_margin="2dp"
+            android:text="A"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:backgroundTint="#E0070707"
+            app:cornerRadius="10dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_b"
+            android:layout_width="55dp"
+            android:layout_height="300dp"
+            android:layout_margin="2dp"
+            android:text="B"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:backgroundTint="#E0070707"
+            app:cornerRadius="10dp">
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
